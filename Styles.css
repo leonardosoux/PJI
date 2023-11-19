@@ -31,7 +31,17 @@
     color: #61aa03;
     
   }
-  
+  h4.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+  }
+
+  h4.titulo span{
+    color: #61aa03;
+    
+  }
+
   
   /* Estilo do cabeçalho*/
   header{
@@ -186,4 +196,37 @@
     color:#7d7d7d;
     transform: scale(1.05);
   }
-  
+
+
+  /*ESTILO LCI*/
+
+  section.LCI-LCA{
+    padding:40px 4%;
+
+  }
+
+  .LCI-LCA .renda-fixa-box{
+    color:#fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    box-shadow: 0 0 8px #fff;
+    
+  }
+
+
+  .LCI-LCA .renda-fixa-box i{
+    font-size: 40px;
+    color: #61aa03;
+  }
+
+  .LCI-LCA .renda-fixa-box h4{
+    font-size: 26px;
+    margin: 15px 0;
+  }
+
+  .LCI-LCA .renda-fixa-box p span{
+    color:#61aa03;
+    font-weight: bold;
+  }
