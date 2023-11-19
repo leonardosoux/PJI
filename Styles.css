@@ -1,3 +1,4 @@
+
 /* Estilo Geral*/
 
 *{
@@ -168,6 +169,7 @@
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
+    margin-bottom: 45px;
     transition: .2s;
   }
 
@@ -197,8 +199,11 @@
     transform: scale(1.05);
   }
 
+  section.renda-fixa .interface h2{
+    margin-top: 10%;
+  }
 
-  /*ESTILO LCI*/
+  /*ESTILO LCI&LCA, CDB E POUPANÇA*/
 
   section.LCI-LCA{
     padding:40px 4%;
@@ -230,3 +235,104 @@
     color:#61aa03;
     font-weight: bold;
   }
+
+ /*ESTILO RENDA VARIAVEL*/
+
+ section.renda-variavel{
+  padding:40px 4%;
+
+}
+
+section.renda-vareiavel .flex{
+  gap: 60px;
+
+}
+
+.renda-variavel .renda-variavel-box{
+  color:#fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+}
+
+.renda-variavel .renda-variavel-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ffffff70;
+}
+
+.renda-variavel .renda-variavel-box i{
+  font-size: 70px;
+  color: #61aa03;
+}
+
+.renda-variavel .renda-variavel-box h3{
+  font-size: 26px;
+  margin: 15px 0; 
+}
+
+.renda-variavel .renda-variavel-box a{
+  color:#fff;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.renda-variavel .renda-variavel-box a:hover{
+  color:#7d7d7d;
+  transform: scale(1.05);
+}
+
+section.renda-variavel .interface h2{
+  margin-top: 8%;
+}
+
+/* ESTILO FUNDOS-ACOES */
+section.fundos-acoes{
+  padding:80px 4%;
+}
+
+section.fundos-acoes .flex{
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.img-fundos{
+  width: 220px;
+  height: 300px;
+  background-size: cover;
+  background-position: 50% 0%;
+  transition: 3s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+
+.img-fundos:hover{
+  background-position: 100% 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b8;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  color:#fff;
+  opacity: 0;
+  transition: .5s;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+section.fundos-acoes .interface .titulo{
+  margin-top: 4%;
+}
